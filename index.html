@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/935f2b46ce.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/empanada-logo-design-template-8f2754b1faef6176ec602e4a71fb83f3_screen.jpg?ts=1688691862">
+      <nav id="nav-bar">
+        <ul>
+          <a href="#info-section" class="nav-link">
+            <li>
+              About our empanadas
+            </li>
+          </a>
+
+          <a href="#vid-section" class="nav-link">
+            <li>
+              How They Are Made
+            </li>
+          </a>
+
+          <a href="#price-section" class="nav-link">
+            <li>
+              Menu
+            </li>
+          </a>
+        
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <section class="form-section card">
+        <h1>Best empanadas, just for you!</h1>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+          <input name="email" type="email" id="email" placeholder="Your email address" required>
+          <input type="submit" id="submit" value="Yum yum!">
+        </form>
+        
+      </section>
+
+      <section class="info-section card" id="info-section">
+        <div class="col">
+          <i class="fa-solid fa-bread-slice"></i>
+          <div class="description">
+            <h2>Crispy, Golden Exterior</h2>
+            <p>A well-made empanada should have a perfectly crispy and golden-brown exterior. This is achieved by baking or frying to the right level, creating a delightful contrast with the filling.</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <i class="fas fa-utensil-spoon"></i>
+          <div class="description">
+            <h2>Flavorful and Savory Fillings</h2>
+            <p>Well-done empanadas are known for their mouthwatering fillings. Ensure your empanadas are filled with a flavorful mix of ingredients that burst with taste, whether it's meat, vegetables, or any other filling you choose.</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <i class="fa fa-heart"></i>
+          <div class="description">
+            <h2>Perfectly Balanced Seasoning</h2>
+            <p>The seasoning in your empanadas should be expertly balanced, enhancing the taste without overpowering it. The blend of spices and herbs should complement the filling, creating a harmonious flavor profile.</p>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="vid-section card" id="vid-section">
+        <h2>How <span class="accent">they</span> are made</h2>
+        <iframe id="video" src="https://www.youtube.com/embed/HHsmRoHE7K0?si=0KEFFDlx8Zyb5OEZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </section>
+
+      <section class="price-section card" id="price-section">
+        <h2 id="menu">Menu</h2>
+
+        <div class="col2">
+          <div class="card2">
+            <h3>Beef Empanada</h3>
+            <h3>$2.50</h3>
+            <p class="card2-desc">A savory delight, filled with seasoned ground beef, onions, and spices.</p>
+          </div>
+
+          <div class="card2">
+            <h3>Chicken Empanada</h3>
+            <h3>$2.75</h3>
+            <p class="card2-desc">Tender chicken mixed with a medley of herbs and vegetables, wrapped in a flaky crust.</p>
+          </div>
+
+          <div class="card2">
+            <h3>Vegetable Empanada</h3>
+            <h3>$3.00</h3>
+            <p class="card2-desc">A vegetarian delight, brimming with a blend of fresh vegetables and a hint of spices.</p>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+<footer>
+  <a href="#">Privacy</a>
+  <a href="#">Terms</a>
+  <a href="#">Where are we?</a>
+  <p class="footer-txt">Copyright 2023, The Best Empanadas</p>
+</footer>
+
+  </body>
+</html>
+
+
